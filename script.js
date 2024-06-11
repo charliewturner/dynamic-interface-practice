@@ -13,11 +13,16 @@
 
 const leftNav = document.querySelector(".left");
 const rightNav = document.querySelector(".right");
+const gallery = document.querySelector(".gallery");
 
 rightNav.addEventListener("click", () => {
-  console.log("Hello World!");
+  gallery.style.right = 250 + "px";
 });
 
 leftNav.addEventListener("click", () => {
-  console.log("Hello World!");
+  moveLeft();
 });
+
+function moveLeft() {
+  gallery.style.left = 250 + "px";
+}
