@@ -7,11 +7,11 @@
 }
 
 .dropdown-container:hover {
-  background-color: rgba(0, 0, 255, 0.623);
+  background-color: rgba(0, 0, 255, 0.349);
 }
 
 .dropdown-container:onclick {
-  background-color: rgb(3, 3, 145) (0, 0, 255, 0.678);
+  background-color: rgba(3, 3, 145, 0.356) (0, 0, 255, 0.678);
 }
 
 .dropdown-content {
@@ -20,6 +20,15 @@
 
 .dropdown-content a {
   display: block;
+  width: 100%;
+}
+
+.dropdown-button:hover {
+  background-color: rgba(6, 6, 97, 0.466);
+}
+
+.link:hover {
+  background-color: rgba(5, 5, 104, 0.521);
 }
 
 .dropdown-container:hover .dropdown-content {
