@@ -2,6 +2,8 @@
   border-style: solid;
   width: 40%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown-container:hover {
@@ -10,4 +12,16 @@
 
 .dropdown-container:onclick {
   background-color: rgb(3, 3, 145) (0, 0, 255, 0.678);
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown-container:hover .dropdown-content {
+  display: block;
 }

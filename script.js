@@ -1,5 +1,12 @@
-const dropdownContainer = document.querySelector(".dropdown-container");
+// const dropdownContainer = document.querySelector(".dropdown-container");
+// let hidden = document.querySelector("drop");
 
-if (dropdownContainer) {
-  dropdownContainer.addEventListener("click", () => {});
-}
+// dropdownContainer.addEventListener("mouseover", () => {
+//   console.log("boop");
+//   revealHidden();
+//   hidden.style.display = "block";
+// });
+
+// function revealHidden() {
+//   document.querySelector(".hidden").style.display = "block";
+// }
