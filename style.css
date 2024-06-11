@@ -41,6 +41,7 @@
   margin: auto;
   border-style: solid;
   position: relative;
+  overflow: hidden;
 }
 
 .gallery {
