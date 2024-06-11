@@ -24,5 +24,5 @@ leftNav.addEventListener("click", () => {
 });
 
 function moveLeft() {
-  gallery.style.left = 250 + "px";
+  gallery.style.left = gallery.style.left + "250px";
 }

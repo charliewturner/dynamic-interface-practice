@@ -41,7 +41,6 @@
   margin: auto;
   border-style: solid;
   position: relative;
-  /* overflow: hidden; */
 }
 
 .gallery {
@@ -51,7 +50,6 @@
   flex-direction: row;
   border-style: solid;
   position: relative;
-  /* object-fit: fill; */
 }
 
 img {
@@ -72,4 +70,21 @@ img {
   top: 250px;
   right: 10px;
   color: aliceblue;
+}
+
+.navigation-dot-container {
+  width: 200px;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  left: 300px;
+  color: aliceblue;
+}
+
+.navigation-dot {
+  text-align: center;
+  gap: 15px;
+  flex-grow: 1;
+  border-style: solid;
+  border-color: white;
 }
