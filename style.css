@@ -39,6 +39,15 @@
   width: 800px;
   height: 500px;
   margin: auto;
+  border-style: solid;
+  position: relative;
+}
 
+.gallery {
+  width: 780px;
+  height: 480px;
+  position: absolute;
+  margin: auto;
+  inset: 0;
   border-style: solid;
 }
