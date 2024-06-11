@@ -34,3 +34,11 @@
 .dropdown-container:hover .dropdown-content {
   display: block;
 }
+
+.carousel-container {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+
+  border-style: solid;
+}
