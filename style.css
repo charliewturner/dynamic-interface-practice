@@ -41,19 +41,34 @@
   margin: auto;
   border-style: solid;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .gallery {
   height: 500px;
-  width: 3500px;
-
+  width: 5600px;
+  display: flex;
+  flex-direction: row;
   border-style: solid;
+  /* object-fit: fill; */
 }
 
 img {
   width: 800px;
   height: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.left {
+  position: absolute;
+  top: 250px;
+  left: 10px;
+  color: aliceblue;
+}
+.right {
+  position: absolute;
+  top: 250px;
+  right: 10px;
+  color: aliceblue;
 }
