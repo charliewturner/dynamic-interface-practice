@@ -35,7 +35,7 @@
   display: block;
 }
 
-.carousel-container {
+.gallery-container {
   width: 800px;
   height: 500px;
   margin: auto;
@@ -44,10 +44,15 @@
 }
 
 .gallery {
-  width: 780px;
-  height: 480px;
-  position: absolute;
-  margin: auto;
-  inset: 0;
+  height: 500px;
+  width: 3500px;
+
   border-style: solid;
+}
+
+img {
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
