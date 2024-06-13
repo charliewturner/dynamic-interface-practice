@@ -70,32 +70,32 @@ img {
 #position-2 {
   position: absolute;
   top: 0px;
-  left: -750px;
+  left: -800px;
 }
 #position-3 {
   position: absolute;
   top: 0px;
-  left: 1600px;
+  left: -1600px;
 }
 #position-4 {
   position: absolute;
   top: 0px;
-  left: 2400px;
+  left: -2400px;
 }
 #position-5 {
   position: absolute;
   top: 0px;
-  left: 3200px;
+  left: -3200px;
 }
 #position-6 {
   position: absolute;
   top: 0px;
-  left: 4000px;
+  left: -4000px;
 }
 #position-7 {
   position: absolute;
   top: 0px;
-  left: 4800px;
+  left: -4800px;
 }
 
 .left {

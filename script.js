@@ -28,5 +28,28 @@ const gallery = document.querySelector(".gallery");
 // }
 
 rightNav.addEventListener("click", () => {
-  gallery.id = "position-2";
+  let galleryID = gallery.id;
+
+  switch (galleryID) {
+    case "position-1":
+      gallery.id = "position-2";
+      break;
+    case "position-2":
+      gallery.id = "position-3";
+      break;
+    case "position-3":
+      gallery.id = "position-4";
+      break;
+    case "position-4":
+      gallery.id = "position-5";
+      break;
+    case "position-5":
+      gallery.id = "position-6";
+      break;
+    case "position-6":
+      gallery.id = "position-7";
+      break;
+    default:
+      console.log("Cannot navigate further right");
+  }
 });
