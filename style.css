@@ -48,8 +48,8 @@
   width: 5600px;
   display: flex;
   flex-direction: row;
-  border-style: solid;
-  position: relative;
+  /* border-style: solid;
+  position: relative; */
 }
 
 .img {
@@ -59,32 +59,38 @@
   flex-direction: row;
 }
 
-.position-2 {
+#position-1 {
+  position: absolute;
+  top: 0px;
+  right: -300px;
+}
+
+#position-2 {
   position: absolute;
   top: 0px;
   right: 800px;
 }
-.position-3 {
+#position-3 {
   position: absolute;
   top: 0px;
   right: 1600px;
 }
-.position-4 {
+#position-4 {
   position: absolute;
   top: 0px;
   right: 2400px;
 }
-.position-5 {
+#position-5 {
   position: absolute;
   top: 0px;
   right: 3200px;
 }
-.position-6 {
+#position-6 {
   position: absolute;
   top: 0px;
   right: 4000px;
 }
-.position-7 {
+#position-7 {
   position: absolute;
   top: 0px;
   right: 4800px;

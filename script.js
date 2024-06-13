@@ -15,14 +15,18 @@ const leftNav = document.querySelector(".left");
 const rightNav = document.querySelector(".right");
 const gallery = document.querySelector(".gallery");
 
+// rightNav.addEventListener("click", () => {
+//   gallery.style.right = 250 + "px";
+// });
+
+// leftNav.addEventListener("click", () => {
+//   moveLeft();
+// });
+
+// function moveLeft() {
+//   gallery.style.left = gallery.style.left + "250px";
+// }
+
 rightNav.addEventListener("click", () => {
-  gallery.style.right = 250 + "px";
+  gallery.id = "position-2";
 });
-
-leftNav.addEventListener("click", () => {
-  moveLeft();
-});
-
-function moveLeft() {
-  gallery.style.left = gallery.style.left + "250px";
-}
