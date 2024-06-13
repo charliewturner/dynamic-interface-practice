@@ -121,7 +121,7 @@ img {
   gap: 10px;
 }
 
-.nav-dot {
+#nav-dot {
   text-align: center;
   gap: 15px;
   flex-grow: 1;
