@@ -111,16 +111,17 @@ img {
   color: aliceblue;
 }
 
-.navigation-dot-container {
+.nav-dot-container {
   width: 200px;
   display: flex;
   position: absolute;
   bottom: 20px;
   left: 300px;
   color: aliceblue;
+  gap: 10px;
 }
 
-.navigation-dot {
+.nav-dot {
   text-align: center;
   gap: 15px;
   flex-grow: 1;
