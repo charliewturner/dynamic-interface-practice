@@ -35,6 +35,8 @@
   display: block;
 }
 
+/* Below this point is the image carousel exercise's CSS */
+
 .gallery-container {
   width: 800px;
   height: 500px;
@@ -52,9 +54,9 @@
   position: relative; */
 }
 
-.img {
+img {
   width: 800px;
-  height: auto;
+
   display: flex;
   flex-direction: row;
 }
@@ -62,38 +64,38 @@
 #position-1 {
   position: absolute;
   top: 0px;
-  right: -300px;
+  left: 0px;
 }
 
 #position-2 {
   position: absolute;
   top: 0px;
-  right: 800px;
+  left: -750px;
 }
 #position-3 {
   position: absolute;
   top: 0px;
-  right: 1600px;
+  left: 1600px;
 }
 #position-4 {
   position: absolute;
   top: 0px;
-  right: 2400px;
+  left: 2400px;
 }
 #position-5 {
   position: absolute;
   top: 0px;
-  right: 3200px;
+  left: 3200px;
 }
 #position-6 {
   position: absolute;
   top: 0px;
-  right: 4000px;
+  left: 4000px;
 }
 #position-7 {
   position: absolute;
   top: 0px;
-  right: 4800px;
+  left: 4800px;
 }
 
 .left {
