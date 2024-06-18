@@ -1,30 +1,17 @@
-// const dropdownContainer = document.querySelector(".dropdown-container");
-// let hidden = document.querySelector("drop");
-
-// dropdownContainer.addEventListener("mouseover", () => {
-//   console.log("boop");
-//   revealHidden();
-//   hidden.style.display = "block";
-// });
-
-// function revealHidden() {
-//   document.querySelector(".hidden").style.display = "block";
-// }
-
 const leftNav = document.querySelector(".left");
 const rightNav = document.querySelector(".right");
 const gallery = document.querySelector(".gallery");
+const navDots = document.querySelectorAll(".nav-dot");
 
-// rightNav.addEventListener("click", () => {
-//   gallery.style.right = 250 + "px";
+// navDots.addEventListener("click", () => {
+//   if (navDots.id == "off") {
+//     navDots.id = "on";
+//   }
 // });
 
-// leftNav.addEventListener("click", () => {
-//   moveLeft();
-// });
+// function dotNavigate() {
+//     var dots = document.getElementsByClassName("nav-dot");
 
-// function moveLeft() {
-//   gallery.style.left = gallery.style.left + "250px";
 // }
 
 rightNav.addEventListener("click", () => {
