@@ -67,3 +67,47 @@ leftNav.addEventListener("click", () => {
       console.log("Cannot navigate further left");
   }
 });
+
+const navDotContainer = document.getElementById("nav-dot-container");
+const dot1 = document.getElementById("nav-dot-1");
+const dot2 = document.getElementById("nav-dot-2");
+const dot3 = document.getElementById("nav-dot-3");
+const dot4 = document.getElementById("nav-dot-4");
+const dot5 = document.getElementById("nav-dot-5");
+const dot6 = document.getElementById("nav-dot-6");
+const dot7 = document.getElementById("nav-dot-7");
+
+dot1.addEventListener("click", () => {
+  gallery.id = "position-1";
+  navDotContainer.id = "active";
+});
+
+dot2.addEventListener("click", () => {
+  gallery.id = "position-2";
+  navDotContainer.id = "active";
+});
+
+dot3.addEventListener("click", () => {
+  gallery.id = "position-3";
+  navDotContainer.id = "active";
+});
+
+dot4.addEventListener("click", () => {
+  gallery.id = "position-4";
+  navDotContainer.id = "active";
+});
+
+dot5.addEventListener("click", () => {
+  gallery.id = "position-5";
+  navDotContainer.id = "active";
+});
+
+dot6.addEventListener("click", () => {
+  gallery.id = "position-6";
+  navDotContainer.id = "active";
+});
+
+dot7.addEventListener("click", () => {
+  gallery.id = "position-7";
+  navDotContainer.id = "active";
+});

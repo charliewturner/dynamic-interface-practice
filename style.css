@@ -37,7 +37,7 @@
 
 /* Below this point is the image carousel exercise's CSS */
 
-.gallery-container {
+#gallery-container {
   width: 800px;
   height: 500px;
   margin: auto;
@@ -138,9 +138,9 @@ img {
   gap: 15px;
   border-style: solid;
   border-color: white;
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 115px;
   margin: auto;
 }
 
@@ -149,9 +149,9 @@ img {
   gap: 15px;
   border-style: solid;
   border-color: white;
-  background-color: white;
-  width: 10px;
-  height: 10px;
+  background-color: rgba(255, 255, 255, 0.651);
+  width: 20px;
+  height: 20px;
   border-radius: 10px;
   margin: auto;
 }
