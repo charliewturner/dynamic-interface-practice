@@ -122,7 +122,18 @@ img {
   gap: 10px;
 }
 
-.nav-dot {
+/* .nav-dot {
+  text-align: center;
+  gap: 15px;
+  border-style: solid;
+  border-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin: auto;
+} */
+
+.inactive {
   text-align: center;
   gap: 15px;
   border-style: solid;
@@ -133,9 +144,14 @@ img {
   margin: auto;
 }
 
-#off {
-}
-
-#on {
+.active {
+  text-align: center;
+  gap: 15px;
+  border-style: solid;
+  border-color: white;
   background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin: auto;
 }

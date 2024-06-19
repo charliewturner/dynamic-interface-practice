@@ -1,7 +1,7 @@
 const leftNav = document.querySelector(".left");
 const rightNav = document.querySelector(".right");
 const gallery = document.querySelector(".gallery");
-const navDots = document.querySelectorAll(".nav-dot");
+const navDots = document.querySelector(".nav-dot");
 
 // navDots.addEventListener("click", () => {
 //   if (navDots.id == "off") {
