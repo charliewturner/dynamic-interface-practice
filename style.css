@@ -133,7 +133,7 @@ img {
   margin: auto;
 } */
 
-.inactive {
+.nav-dot {
   text-align: center;
   gap: 15px;
   border-style: solid;
@@ -144,14 +144,30 @@ img {
   margin: auto;
 }
 
-.active {
-  text-align: center;
-  gap: 15px;
-  border-style: solid;
-  border-color: white;
-  background-color: rgba(255, 255, 255, 0.651);
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  margin: auto;
+.nav-dot-container.first_selected #nav-dot-1 {
+  background-color: gray;
+}
+
+.nav-dot-container.second_selected #nav-dot-2 {
+  background-color: gray;
+}
+
+.nav-dot-container.third_selected #nav-dot-3 {
+  background-color: gray;
+}
+
+.nav-dot-container.fourth_selected #nav-dot-4 {
+  background-color: gray;
+}
+
+.nav-dot-container.fifth_selected #nav-dot-5 {
+  background-color: gray;
+}
+
+.nav-dot-container.sixth_selected #nav-dot-6 {
+  background-color: gray;
+}
+
+.nav-dot-container.seventh_selected #nav-dot-7 {
+  background-color: gray;
 }
