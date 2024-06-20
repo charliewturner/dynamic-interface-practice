@@ -68,46 +68,71 @@ leftNav.addEventListener("click", () => {
   }
 });
 
-const navDotContainer = document.getElementById("nav-dot-container");
-const dot1 = document.getElementById("nav-dot-1");
-const dot2 = document.getElementById("nav-dot-2");
-const dot3 = document.getElementById("nav-dot-3");
-const dot4 = document.getElementById("nav-dot-4");
-const dot5 = document.getElementById("nav-dot-5");
-const dot6 = document.getElementById("nav-dot-6");
-const dot7 = document.getElementById("nav-dot-7");
+const navDotContainer = document.getElementById("container");
 
-dot1.addEventListener("click", () => {
+// const dot1 = document.getElementById("nav-dot-1");
+// const dot2 = document.getElementById("nav-dot-2");
+// const dot3 = document.getElementById("nav-dot-3");
+// const dot4 = document.getElementById("nav-dot-4");
+// const dot5 = document.getElementById("nav-dot-5");
+// const dot6 = document.getElementById("nav-dot-6");
+// const dot7 = document.getElementById("nav-dot-7");
+
+document.getElementById("nav-dot-1").addEventListener("click", () => {
+  navDotContainer.className = "nav-dot-container first_selected";
   gallery.id = "position-1";
-  navDotContainer.id = "active";
 });
 
-dot2.addEventListener("click", () => {
+document.getElementById("nav-dot-2").addEventListener("click", () => {
+  navDotContainer.className = "nav-dot-container second_selected";
   gallery.id = "position-2";
-  navDotContainer.id = "active";
 });
-
-dot3.addEventListener("click", () => {
+document.getElementById("nav-dot-3").addEventListener("click", () => {
+  navDotContainer.className = "nav-dot-container third_selected";
   gallery.id = "position-3";
-  navDotContainer.id = "active";
 });
-
-dot4.addEventListener("click", () => {
+document.getElementById("nav-dot-4").addEventListener("click", () => {
+  navDotContainer.className = "nav-dot-container fourth_selected";
   gallery.id = "position-4";
-  navDotContainer.id = "active";
 });
-
-dot5.addEventListener("click", () => {
+document.getElementById("nav-dot-5").addEventListener("click", () => {
+  navDotContainer.className = "nav-dot-container fifth_selected";
   gallery.id = "position-5";
-  navDotContainer.id = "active";
 });
-
-dot6.addEventListener("click", () => {
+document.getElementById("nav-dot-6").addEventListener("click", () => {
+  navDotContainer.className = "nav-dot-container sixth_selected";
   gallery.id = "position-6";
-  navDotContainer.id = "active";
 });
-
-dot7.addEventListener("click", () => {
+document.getElementById("nav-dot-7").addEventListener("click", () => {
+  navDotContainer.className = "nav-dot-container seventh_selected";
   gallery.id = "position-7";
-  navDotContainer.id = "active";
 });
+// dot2.addEventListener("click", () => {
+//   gallery.id = "position-2";
+//   navDotContainer.id = "active";
+// });
+
+// dot3.addEventListener("click", () => {
+//   gallery.id = "position-3";
+//   navDotContainer.id = "active";
+// });
+
+// dot4.addEventListener("click", () => {
+//   gallery.id = "position-4";
+//   navDotContainer.id = "active";
+// });
+
+// dot5.addEventListener("click", () => {
+//   gallery.id = "position-5";
+//   navDotContainer.id = "active";
+// });
+
+// dot6.addEventListener("click", () => {
+//   gallery.id = "position-6";
+//   navDotContainer.id = "active";
+// });
+
+// dot7.addEventListener("click", () => {
+//   gallery.id = "position-7";
+//   navDotContainer.id = "active";
+// });
